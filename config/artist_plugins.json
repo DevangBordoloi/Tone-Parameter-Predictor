@@ -1,0 +1,31 @@
+{
+  "_comment": "artist (lower-case substring) -> installed plugin. null = no Neural DSP signature plugin, so the closest installed plugin is chosen by the model.",
+  "artists": {
+    "plini": "Archetype Plini",
+    "tim henson": "Archetype Plini",
+    "abasi": "Archetype Abasi",
+    "tosin": "Archetype Abasi",
+    "animals as leaders": "Archetype Abasi",
+    "gojira": "Archetype Gojira",
+    "joe duplantier": "Archetype Gojira",
+    "john mayer": "Archetype John Mayer X",
+    "mayer": "Archetype John Mayer X",
+    "misha mansoor": "Archetype Misha Mansoor X",
+    "periphery": "Archetype Misha Mansoor X",
+    "nolly": "Archetype Nolly X",
+    "getgood": "Archetype Nolly X",
+    "petrucci": "Archetype Petrucci X",
+    "dream theater": "Archetype Petrucci X",
+    "prince": null
+  },
+  "_comment_fallback": "Neural DSP plugins that are not installed -> the installed plugin to use instead (static table from the plan)",
+  "not_installed_fallback": {
+    "Archetype Cory Wong": "Archetype John Mayer X",
+    "Archetype Fortin Nameless": "Archetype Gojira",
+    "Archetype Tim Henson": "Archetype Plini",
+    "Archetype Rabea": "Archetype John Mayer X",
+    "Archetype Mateus Asato": "Archetype John Mayer X",
+    "Parallax": "Archetype Gojira",
+    "Soldano SLO-100": "Archetype Gojira"
+  }
+}

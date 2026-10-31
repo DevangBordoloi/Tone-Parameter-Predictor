@@ -1,0 +1,26 @@
+# core (training, inference, evaluation)
+torch
+torchaudio
+numpy
+scipy
+pydantic>=2
+soundfile
+
+# local rendering with the licensed plugins (dataset_builder, ITO, check)
+pedalboard>=0.9
+
+# storage (npz is used if h5py is absent)
+h5py
+
+# stage 1: guitar isolation
+yt-dlp
+demucs
+imageio-ffmpeg
+truststore
+
+# integration & mcp
+mcp>=1.2
+modal
+
+# tests
+pytest

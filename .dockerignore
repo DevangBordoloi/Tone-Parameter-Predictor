@@ -1,0 +1,11 @@
+.git
+.venv
+.vscode
+.pytest_cache
+**/__pycache__
+**/*.py[cod]
+data
+output
+runs/**/last.pt
+*.zip
+*.wav

@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "tone-model": {
+      "command": "c:\\Users\\devan\\Desktop\\IIIT\\Research\\Tone Parameter Estimation\\.venv\\Scripts\\python.exe",
+      "args": ["-m", "pipeline.mcp_server"],
+      "cwd": "c:\\Users\\devan\\Desktop\\IIIT\\Research\\Tone Parameter Estimation",
+      "env": {
+        "PYTHONPATH": "c:\\Users\\devan\\Desktop\\IIIT\\Research\\Tone Parameter Estimation",
+        "TONE_CHECKPOINT": "c:\\Users\\devan\\Desktop\\IIIT\\Research\\Tone Parameter Estimation\\runs\\finetune\\best.pt"
+      }
+    }
+  }
+}
+

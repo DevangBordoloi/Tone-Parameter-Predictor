@@ -1,0 +1,47 @@
+# Allowlist: ignore everything at the top level, then re-include the project.
+/*
+!/.gitignore
+!/.dockerignore
+!/Dockerfile
+!/README.md
+!/requirements.txt
+!/make_shards_v2.py
+
+# code
+!/common/
+!/dataset_builder/
+!/evaluation/
+!/guitar_stem_isolator/
+!/patch_corpus/
+!/patch_scraper/
+!/pipeline/
+!/plugin_selector/
+!/preset_corpus/
+!/tone_model/
+!/tone_parameter_estimation/
+!/training/
+!/tests/
+
+# configs, notes, results
+!/config/
+!/docs/
+!/eval/
+!/runs/
+!/output/
+
+# model checkpoints: keep best.pt (+ centroids, fx probs, history), drop the resume checkpoints
+/runs/**/last.pt
+
+# example outputs: keep the preset .json/.md, drop the audio (copyrighted song clips)
+/output/audio/
+*.wav
+*.mp3
+*.flac
+
+# python / tooling noise
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg-info/
+.env
