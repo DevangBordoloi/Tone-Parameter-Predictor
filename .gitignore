@@ -22,7 +22,10 @@
 !/training/
 !/tests/
 
-# configs, notes, results
+# editor settings (shared), configs, notes, results
+!/.vscode/
+/.vscode/*
+!/.vscode/settings.json
 !/config/
 !/docs/
 !/eval/

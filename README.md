@@ -79,8 +79,6 @@ Tone Parameter Estimation/
 ├── output/                    # Example preset JSON + Markdown reports
 ├── docs/
 │   ├── EVALUATION.md          # Evaluation audit and next steps
-│   └── SCRAPING_LOG.md        # How the preset corpus was collected
-├── make_shards_v2.py          # Packs data/ shards into shards_v2.zip for cloud training
 ├── Dockerfile                 # Containerised inference / training / tests
 │
 └── tests/                     # Comprehensive test suite (120+ unit tests)
