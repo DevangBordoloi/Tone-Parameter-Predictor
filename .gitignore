@@ -1,3 +1,4 @@
+
 # Allowlist: ignore everything at the top level, then re-include the project.
 /*
 !/.gitignore
@@ -22,10 +23,7 @@
 !/training/
 !/tests/
 
-# editor settings (shared), configs, notes, results
-!/.vscode/
-/.vscode/*
-!/.vscode/settings.json
+# configs, notes, results
 !/config/
 !/docs/
 !/eval/
@@ -42,6 +40,7 @@
 *.flac
 
 # python / tooling noise
+.vscode/
 __pycache__/
 *.py[cod]
 .pytest_cache/
